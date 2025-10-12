@@ -1,0 +1,1253 @@
+blueprint:
+  name: ESPHome Buttons (24x)
+  description: |-
+    A Blueprint to handle the events from an ESPHome device with 24 event entities.
+  domain: automation
+  source_url: https://github.com/jesserockz/blueprints/blob/main/esphome-button-24x.yaml
+  input:
+    device:
+      name: ESPHome Device
+      description: Select the ESPHome Device
+      selector:
+        device:
+          multiple: false
+          filter:
+            - integration: esphome
+    button_1:
+      name: Button 1
+      icon: mdi:numeric-1-box-outline
+      description: Select the actions to perform after an event on Button 1
+      collapsed: true
+      input:
+        button_1_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_1_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_1_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_1_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_2:
+      name: Button 2
+      icon: mdi:numeric-2-box-outline
+      description: Select the actions to perform after an event on Button 2
+      collapsed: true
+      input:
+        button_2_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_2_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_2_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_2_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_3:
+      name: Button 3
+      icon: mdi:numeric-3-box-outline
+      description: Select the actions to perform after an event on Button 3
+      collapsed: true
+      input:
+        button_3_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_3_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_3_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_3_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_4:
+      name: Button 4
+      icon: mdi:numeric-4-box-outline
+      description: Select the actions to perform after an event on Button 4
+      collapsed: true
+      input:
+        button_4_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_4_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_4_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_4_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_5:
+      name: Button 5
+      icon: mdi:numeric-5-box-outline
+      description: Select the actions to perform after an event on Button 5
+      collapsed: true
+      input:
+        button_5_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_5_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_5_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_5_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_6:
+      name: Button 6
+      icon: mdi:numeric-6-box-outline
+      description: Select the actions to perform after an event on Button 6
+      collapsed: true
+      input:
+        button_6_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_6_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_6_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_6_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_7:
+      name: Button 7
+      icon: mdi:numeric-7-box-outline
+      description: Select the actions to perform after an event on Button 7
+      collapsed: true
+      input:
+        button_7_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_7_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_7_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_7_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_8:
+      name: Button 8
+      icon: mdi:numeric-8-box-outline
+      description: Select the actions to perform after an event on Button 8
+      collapsed: true
+      input:
+        button_8_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_8_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_8_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_8_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_9:
+      name: Button 9
+      icon: mdi:numeric-9-box-outline
+      description: Select the actions to perform after an event on Button 9
+      collapsed: true
+      input:
+        button_9_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_9_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_9_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_9_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_10:
+      name: Button 10
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 10
+      collapsed: true
+      input:
+        button_10_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_10_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_10_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_10_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_11:
+      name: Button 11
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 11
+      collapsed: true
+      input:
+        button_11_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_11_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_11_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_11_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_12:
+      name: Button 12
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 12
+      collapsed: true
+      input:
+        button_12_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_12_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_12_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_12_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_13:
+      name: Button 13
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 13
+      collapsed: true
+      input:
+        button_13_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_13_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_13_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_13_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_14:
+      name: Button 14
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 14
+      collapsed: true
+      input:
+        button_14_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_14_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_14_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_14_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_15:
+      name: Button 15
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 15
+      collapsed: true
+      input:
+        button_15_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_15_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_15_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_15_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_16:
+      name: Button 16
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 16
+      collapsed: true
+      input:
+        button_16_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_16_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_16_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_16_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_17:
+      name: Button 17
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 17
+      collapsed: true
+      input:
+        button_17_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_17_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_17_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_17_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_18:
+      name: Button 18
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 18
+      collapsed: true
+      input:
+        button_18_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_18_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_18_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_18_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_19:
+      name: Button 19
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 19
+      collapsed: true
+      input:
+        button_19_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_19_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_19_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_19_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_20:
+      name: Button 20
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 20
+      collapsed: true
+      input:
+        button_20_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_20_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_20_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_20_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_21:
+      name: Button 21
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 21
+      collapsed: true
+      input:
+        button_21_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_21_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_21_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_21_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_22:
+      name: Button 22
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 22
+      collapsed: true
+      input:
+        button_22_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_22_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_22_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_22_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_23:
+      name: Button 23
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 23
+      collapsed: true
+      input:
+        button_23_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_23_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_23_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_23_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+    button_24:
+      name: Button 24
+      icon: mdi:numeric-9-plus-box-outline
+      description: Select the actions to perform after an event on Button 24
+      collapsed: true
+      input:
+        button_24_single:
+          name: Single Click
+          default: []
+          selector:
+            action:
+        button_24_double:
+          name: Double Click
+          default: []
+          selector:
+            action:
+        button_24_four:
+          name: Four Clicks
+          default: []
+          selector:
+            action:
+        button_24_hold:
+          name: Hold
+          default: []
+          selector:
+            action:
+
+trigger_variables:
+  deviceid: !input device
+  entities: "{{ device_entities(deviceid) }}"
+
+  event_1_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_1") | list | last }}
+  event_2_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_2") | list | last }}
+  event_3_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_3") | list | last }}
+  event_4_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_4") | list | last }}
+  event_5_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_5") | list | last }}
+  event_6_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_6") | list | last }}
+  event_7_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_7") | list | last }}
+  event_8_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_8") | list | last }}
+  event_9_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_9") | list | last }}
+  event_10_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_10") | list | last }}
+  event_11_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_11") | list | last }}
+  event_12_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_12") | list | last }}
+  event_13_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_13") | list | last }}
+  event_14_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_14") | list | last }}
+  event_15_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_15") | list | last }}
+  event_16_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_16") | list | last }}
+  event_17_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_17") | list | last }}
+  event_18_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_18") | list | last }}
+  event_19_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_19") | list | last }}
+  event_20_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_20") | list | last }}
+  event_21_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_21") | list | last }}
+  event_22_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_22") | list | last }}
+  event_23_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_23") | list | last }}
+  event_24_entity: >
+    {{ entities | selectattr(None, "search", "event.*_button_24") | list | last }}
+
+mode: parallel
+trigger:
+  - platform: event
+    id: one
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_1_entity }}"
+  - platform: event
+    id: two
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_2_entity }}"
+  - platform: event
+    id: three
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_3_entity }}"
+  - platform: event
+    id: four
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_4_entity }}"
+  - platform: event
+    id: five
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_5_entity }}"
+  - platform: event
+    id: six
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_6_entity }}"
+  - platform: event
+    id: seven
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_7_entity }}"
+  - platform: event
+    id: eight
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_8_entity }}"
+  - platform: event
+    id: nine
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_9_entity }}"
+  - platform: event
+    id: ten
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_10_entity }}"
+  - platform: event
+    id: eleven
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_11_entity }}"
+  - platform: event
+    id: twelve
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_12_entity }}"
+  - platform: event
+    id: thirteen
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_13_entity }}"
+  - platform: event
+    id: fourteen
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_14_entity }}"
+  - platform: event
+    id: fifteen
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_15_entity }}"
+  - platform: event
+    id: sixteen
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_16_entity }}"
+  - platform: event
+    id: seventeen
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_17_entity }}"
+  - platform: event
+    id: eighteen
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_18_entity }}"
+  - platform: event
+    id: nineteen
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_19_entity }}"
+  - platform: event
+    id: twenty
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_20_entity }}"
+  - platform: event
+    id: twentyone
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_21_entity }}"
+  - platform: event
+    id: twentytwo
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_22_entity }}"
+  - platform: event
+    id: twentythree
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_23_entity }}"
+  - platform: event
+    id: twentyfour
+    event_type: state_changed
+    event_data:
+      entity_id: "{{ event_24_entity }}"
+
+action:
+  - variables:
+      action: "{{ trigger.event.data.new_state.attributes.event_type }}"
+      button: "{{ trigger.id }}"
+  - choose:
+      - conditions:
+          - condition: trigger
+            id:
+              - one
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_1_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_1_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_1_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_1_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - two
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_2_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_2_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_2_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_2_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - three
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_3_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_3_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_3_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_3_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - four
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_4_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_4_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_4_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_4_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - five
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_5_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_5_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_5_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_5_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - six
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_6_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_6_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_6_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_6_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - seven
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_7_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_7_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_7_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_7_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - eight
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_8_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_8_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_8_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_8_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - nine
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_9_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_9_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_9_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_9_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - ten
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_10_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_10_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_10_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_10_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - eleven
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_11_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_11_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_11_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_11_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - twelve
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_12_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_12_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_12_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_12_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - thirteen
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_13_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_13_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_13_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_13_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - fourteen
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_14_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_14_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_14_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_14_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - fifteen
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_15_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_15_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_15_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_15_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - sixteen
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_16_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_16_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_16_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_16_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - seventeen
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_17_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_17_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_17_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_17_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - eighteen
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_18_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_18_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_18_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_18_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - nineteen
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_19_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_19_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_19_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_19_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - twenty
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_20_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_20_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_20_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_20_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - twentyone
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_21_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_21_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_21_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_21_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - twentytwo
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_22_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_22_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_22_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_22_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - twentythree
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_23_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_23_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_23_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_23_hold"
+      - conditions:
+          - condition: trigger
+            id:
+              - twentyfour
+        sequence:
+          - choose:
+              - conditions:
+                  - "{{ action == 'click' }}"
+                sequence: !input "button_24_single"
+              - conditions:
+                  - "{{ action == 'double_click' }}"
+                sequence: !input "button_24_double"
+              - conditions:
+                  - "{{ action == 'four_clicks' }}"
+                sequence: !input "button_24_four"
+              - conditions:
+                  - "{{ action == 'hold' }}"
+                sequence: !input "button_24_hold"
